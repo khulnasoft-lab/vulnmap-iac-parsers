@@ -6,12 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Cloning current repository'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - uses: actions/setup-go@v2
         with:
           go-version: '1.18'
       - name: 'Preparing cloud-config-opa-policies'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: master
           token: ${{secrets.GH_ACCESS_TOKEN}}
