@@ -1,0 +1,8 @@
+vulnmap-iac-rules
+.DS_Store
+bundle.tar.gz
+dist/
+cover.out
+tmp/
+scripts/opa/opa
+node_modules
