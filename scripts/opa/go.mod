@@ -3,7 +3,7 @@ module opa
 go 1.18
 
 require (
-	github.com/khulnasoft-lab/vulnmap-iac-parsers v0.0.0-20231115005150-91a51cb75ab8
+	github.com/khulnasoft-lab/vulnmap-iac-parsers v0.0.1
 	github.com/open-policy-agent/opa v0.48.0
 )
 
